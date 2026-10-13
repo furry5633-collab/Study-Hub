@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-12T23:36:27.854Z",
+  "version": "1.1.0",
+  "environment": "Chromium 148, viewport Android emulado; Europe/Madrid. Cámara/micrófono emulados. Traducción y OCR reales.",
+  "passed": 155,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "JavaScript válido; no llamadas a eval ni new Function",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin URLs de servicios de IA/traducción neuronal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Datos spa sin componentes LSTM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Datos eng sin componentes LSTM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PWA: manifest, worker e iconos existen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Arranque en Inicio con IndexedDB",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No envía solicitudes externas al abrir",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin datos de ejemplo inventados",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Orden de las 11 herramientas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: calculator",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: calendar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: recorder",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: tts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: scanner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: translator",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: search",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Navegación sin recarga: home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Arrastrar rayita abre el menú completamente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "La rayita sigue visible en el menú abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Arrastrar la misma rayita al borde cierra el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Toque fuera del menú lo cierra",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Herramienta seleccionada señalada y menú cerrado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cancelar prompt por Escape resuelve su promesa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cálculo 1+2*3",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "Cálculo (1+2)*3",
+      "ok": true,
+      "detail": "9"
+    },
+    {
+      "name": "Cálculo -5+3",
+      "ok": true,
+      "detail": "-2"
+    },
+    {
+      "name": "Cálculo -2^2",
+      "ok": true,
+      "detail": "-4"
+    },
+    {
+      "name": "Cálculo 2^3^2",
+      "ok": true,
+      "detail": "512"
+    },
+    {
+      "name": "Cálculo 2*-3",
+      "ok": true,
+      "detail": "-6"
+    },
+    {
+      "name": "Cálculo 0.1+0.2",
+      "ok": true,
+      "detail": "0.30000000000000004"
+    },
+    {
+      "name": "Cálculo 3,5+1,5",
+      "ok": true,
+      "detail": "5"
+    },
+    {
+      "name": "Cálculo 3(4)",
+      "ok": true,
+      "detail": "12"
+    },
+    {
+      "name": "Cálculo 2pi",
+      "ok": true,
+      "detail": "6.283185307179586"
+    },
+    {
+      "name": "Cálculo sqrt(16)",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "name": "Cálculo sin(30)",
+      "ok": true,
+      "detail": "0.49999999999999994"
+    },
+    {
+      "name": "Cálculo log(1000)",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "Cálculo ln(e)",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "Cálculo 5!",
+      "ok": true,
+      "detail": "120"
+    },
+    {
+      "name": "Cálculo 200+10%",
+      "ok": true,
+      "detail": "220"
+    },
+    {
+      "name": "Cálculo 200-10%",
+      "ok": true,
+      "detail": "180"
+    },
+    {
+      "name": "Cálculo 200*10%",
+      "ok": true,
+      "detail": "20"
+    },
+    {
+      "name": "Cálculo 25%",
+      "ok": true,
+      "detail": "0.25"
+    },
+    {
+      "name": "Cálculo 1/2+1/3",
+      "ok": true,
+      "detail": "0.8333333333333333"
+    },
+    {
+      "name": "Cálculo 1e-5*10",
+      "ok": true,
+      "detail": "0.0001"
+    },
+    {
+      "name": "Rechaza entrada inválida 1/0",
+      "ok": true,
+      "detail": "div0"
+    },
+    {
+      "name": "Rechaza entrada inválida sqrt(-4)",
+      "ok": true,
+      "detail": "NaN"
+    },
+    {
+      "name": "Rechaza entrada inválida 1+",
+      "ok": true,
+      "detail": "syntax"
+    },
+    {
+      "name": "Rechaza entrada inválida (2+3",
+      "ok": true,
+      "detail": "paren"
+    },
+    {
+      "name": "Rechaza entrada inválida 1.2.3",
+      "ok": true,
+      "detail": "char"
+    },
+    {
+      "name": "Rechaza entrada inválida 1 2",
+      "ok": true,
+      "detail": "char"
+    },
+    {
+      "name": "Rechaza entrada inválida 2+*3",
+      "ok": true,
+      "detail": "syntax"
+    },
+    {
+      "name": "Rechaza entrada inválida alert(1)",
+      "ok": true,
+      "detail": "func"
+    },
+    {
+      "name": "Rechaza entrada inválida document.cookie",
+      "ok": true,
+      "detail": "char"
+    },
+    {
+      "name": "Rechaza entrada inválida tan(90)",
+      "ok": true,
+      "detail": "NaN"
+    },
+    {
+      "name": "Rechaza entrada inválida 50%20",
+      "ok": true,
+      "detail": "syntax"
+    },
+    {
+      "name": "Fracción exacta 0,75 = 3/4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cambio de signo de operando sin concatenar dígitos",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "name": "Modo fracciones: 1/2+1/3=5/6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Encadenar un resultado fraccionario conserva su valor",
+      "ok": true,
+      "detail": "1 5/6"
+    },
+    {
+      "name": "Tecla sin y autocierre de paréntesis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Modo RAD",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Historial conserva resultado numérico",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Botón de historial real abre diálogo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Guardar al cerrar inmediatamente, con asignatura, etiquetas y color",
+      "ok": true,
+      "detail": "{\"id\":\"mv5w4sw1x7ws7h\",\"title\":\"Física · tema 1\",\"body\":\"Ley de Ohm: V = I × R.\\n<svg onload=\\\"window.__xss=true\\\"></svg>\",\"tags\":[\"repaso\",\"fórmulas\"],\"color\":\"#d6ecff\",\"subject\":\"Física\",\"pinned\":true,\"deleted\":false,\"created\":1791848165185,\"updated\":1791848165368}"
+    },
+    {
+      "name": "La nota no ejecuta el HTML escrito",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Buscar por etiqueta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Autoguardado confirmado en IndexedDB",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Nota eliminada recuperable en papelera",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recuperación real de nota",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Enviar nota al lector conserva el texto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Error de cuota no crea una nota falsamente guardada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Evento real creado con asignatura",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Vista mensual de 42 días",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Vista semanal de 7 días",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Vista diaria",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Calendario correcto al cambiar la hora en octubre",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Inicio incluye tareas antiguas aún pendientes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Completar tarea actualiza el Inicio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Archivo importado con datos y metadatos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Carpeta virtual persistida en IndexedDB",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Favorito de archivo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Lee texto real del archivo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Archivo enviado al lector sin perder contenido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Mover archivo a carpeta virtual",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Archivo en papelera",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recuperar archivo con binario intacto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cámara por getUserMedia (dispositivo emulado)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Captura una foto real del stream y libera la cámara",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cámara denegada: mensaje y app operativa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Extrae operaciones con programación convencional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Operación enviada a la calculadora",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Pausar congela el tiempo de grabación",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Audio real guardado y pausa excluida",
+      "ok": true,
+      "detail": "{\"size\":5427,\"duration\":688,\"type\":\"audio/webm;codecs=opus\"}"
+    },
+    {
+      "name": "Micrófono liberado al detener",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reproducción del audio guardado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Renombrar grabación persistente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Disponibilidad de voces tratada sin inventarlas",
+      "ok": true,
+      "detail": "{\"api\":true,\"voices\":0,\"playDisabled\":true}"
+    },
+    {
+      "name": "Texto largo se divide en tramos cortos sin pérdida",
+      "ok": true,
+      "detail": "6 tramos"
+    },
+    {
+      "name": "Velocidad y ajustes de voz guardados",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Aviso si falta una voz en el idioma elegido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Copiar resultado al portapapeles real",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Siete idiomas y opción de origen automático",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Apertium devuelve una traducción REAL por reglas",
+      "ok": true,
+      "detail": "Good morning."
+    },
+    {
+      "name": "Traducción en favoritos e historial",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No inventa traducción para pareja no instalada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Memoria humana con traducción automática desactivada",
+      "ok": true,
+      "detail": "good morning"
+    },
+    {
+      "name": "Sin segmento humano exacto, no inventa resultado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No solicita proveedores neuronales como alternativa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Abre URL real del motor, sin resultados inventados",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Enlace de búsqueda visible e historial",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Tesseract ejecutado en OEM 0 sin LSTM",
+      "ok": true,
+      "detail": "{\"oem\":0,\"legacyCore\":true,\"legacyLang\":true}"
+    },
+    {
+      "name": "OCR reconoce texto REAL de la imagen",
+      "ok": true,
+      "detail": "\"STUDY HUB 2026\\n12 + 7 = 19\""
+    },
+    {
+      "name": "Texto OCR guardado como nota real",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "OCR español e inglés con los datos clásicos incluidos",
+      "ok": true,
+      "detail": "La energía y los átomos."
+    },
+    {
+      "name": "Almacenamiento y permisos con estados reales",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Tema oscuro aplicado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Tamaño de texto cambia también rem",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Menú e interfaz en inglés",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Copia completa contiene audio y archivos binarios",
+      "ok": true,
+      "detail": "{\"files\":1,\"audio\":1,\"notes\":2,\"bytes\":5427,\"sourceBytes\":5427}"
+    },
+    {
+      "name": "Importación inválida se rechaza antes de borrar datos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Transacción fallida revierte todo el reemplazo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Restauración real: notas, eventos, archivos y audio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Exportación TXT en un ZIP local",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Datos y binarios persisten tras recargar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recarga atendida por el service worker con red bloqueada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PWA abre sin conexión y recupera datos locales",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Calculadora funciona sin conexión",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Calendario funciona sin conexión",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin red, el traductor avisa y no promete traducción",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "OCR clásico funciona offline después de preparar sus recursos",
+      "ok": true,
+      "detail": "OFFLINE STUDY HUB"
+    },
+    {
+      "name": "Sin desbordamiento 360px · home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 360px · calendar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 360px · settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 360px · notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 360px · scanner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 360px · tts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · calendar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · scanner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 768px · tts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · calendar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · scanner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desbordamiento 1280px · tts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Texto legible en notas con color bajo tema oscuro",
+      "ok": true,
+      "detail": "{\"fg\":\"rgb(32, 39, 56)\",\"bg\":\"rgb(214, 236, 255)\"}"
+    },
+    {
+      "name": "Menú deslizable funciona también con ratón",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cerrar menú con clic externo de ratón",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin excepciones JavaScript durante las pruebas",
+      "ok": true,
+      "detail": "[]"
+    }
+  ],
+  "errors": []
+}

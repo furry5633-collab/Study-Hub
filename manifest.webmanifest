@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Study Hub — herramientas escolares",
+  "short_name": "Study Hub",
+  "lang": "es",
+  "description": "Herramientas escolares locales. Sin IA generativa ni servicios neuronales integrados.",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f2f4f8",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

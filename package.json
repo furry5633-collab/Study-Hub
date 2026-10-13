@@ -1,0 +1,13 @@
+{
+  "name": "study-hub-pruebas",
+  "private": true,
+  "version": "1.1.0",
+  "description": "Pruebas de Study Hub; no necesarias para ejecutar la aplicaci\u00f3n.",
+  "scripts": {
+    "test": "node aceptacion.cjs"
+  },
+  "devDependencies": {
+    "acorn": "8.19.0",
+    "puppeteer": "24.43.1"
+  }
+}
